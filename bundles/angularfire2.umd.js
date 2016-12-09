@@ -337,6 +337,7 @@ var __extends$1 = (undefined && undefined.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
+firebase = firebase.firebase;
 var _a = firebase.auth;
 var FacebookAuthProvider = _a.FacebookAuthProvider;
 var GithubAuthProvider = _a.GithubAuthProvider;
